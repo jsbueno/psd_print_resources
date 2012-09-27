@@ -1,0 +1,10 @@
+This is a simple script to parse  a PSD Image file (Adobe Phtooshop native
+image format), and printout the resources used in the file tagged
+with "/Name" -- most of them are font (typeface) names.
+
+Since GIMP as of 2.8 can't import Photoshop text layers as text, this
+script can help designers to see what fonts where used in a given image
+without resorting to a Photoshop install.
+
+Tested with Python 2.6, 2.7 and 3.2, pypy 1.8
+
